@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question NO1</title>
+</head>
+
+<body>
+    <h1>Answer for Question No 1</h1>
+    </form>
+    <script>
+        let array=[[3,2],[1],[4,12]]
+        document.write(array[0][0]+array[0][1]+array[1][0]+array[2][0]+array[2][1]);
+
+///////LOOP CONCEPT
+
+        function arraySum(a) {
+            var sumOfTheArray = 0;
+            for (var i = 0; i < a.length; i++) {
+                for (var b = 0; b < a[i].length; b++) {
+                    sumOfTheArray += a[i][b];
+                }
+            }
+            return sumOfTheArray;
+        }
+        document.write("Total Of the Array : " + arraySum([[3, 2], [1], [4, 12]]));
+    </script>
+</body>
+
+</html>
